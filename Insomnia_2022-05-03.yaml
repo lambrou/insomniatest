@@ -1,6 +1,6 @@
 _type: export
 __export_format: 4
-__export_date: 2022-05-03T21:39:07.692Z
+__export_date: 2022-05-03T21:39:34.273Z
 __export_source: insomnia.desktop.app:v2022.2.1
 resources:
   - _id: req_d7ace411c83841ee885431b1c17adc18
@@ -1024,7 +1024,7 @@ resources:
     _type: request
   - _id: req_745d5024fab64328bea8e01a2d51b171
     parentId: fld_000d06a928074c4eb5e5f7c8302dbebe
-    modified: 1651613925017
+    modified: 1651613953055
     created: 1641818775185
     url: "{{ _['Issues URI'] }}/put"
     name: issues/put
@@ -1036,6 +1036,7 @@ resources:
       be updated is set in the `id` parameter of the request, and provide any
       other fields to update.
 
+      This is an edit.
 
       Minimum information required information to create an issue:
 
